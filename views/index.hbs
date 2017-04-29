@@ -1,7 +1,34 @@
+<script src="http://worldwindserver.net/webworldwind/worldwind.min.js" type="text/javascript"></script>
+
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
     <h2 class="margin">Is the world running on renewable yet?</h2>
-    <img src="images/WorldView.png" class="img-responsive margin" style="display:inline" alt="Bird" style="color: red">
+
+    <div style="">
+        <!-- Create a canvas for Web World Wind. -->
+        <canvas id="canvasOne" width="1024" height="768" >
+            Your browser does not support HTML5 Canvas.
+        </canvas>
+    </div>
+    <script>
+        // Register an event listener to be called when the page is loaded.
+        window.addEventListener("load", eventWindowLoaded, false);
+
+        // Define the event listener to initialize Web World Wind.
+        function eventWindowLoaded() {
+            // Create a World Window for the canvas.
+            var wwd = new WorldWind.WorldWindow("canvasOne");
+            wwd.navigator.lookAtLocation.latitude = 30;
+            wwd.navigator.lookAtLocation.longitude = 23;
+            wwd.navigator.range = 12e6;
+            // Add some image layers to the World Window's globe.
+            wwd.addLayer(new WorldWind.BingAerialWithLabelsLayer());
+
+            // Add a compass, a coordinates display and some view controls to the World Window.
+        }
+
+    </script>
+
 </div>
 
 <!-- Container (The Band Section) -->
