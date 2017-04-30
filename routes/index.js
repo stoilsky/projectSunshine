@@ -1,6 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-console.log('are we here');
+/* GET home page. */
+router.get('/', function (req, res, next) {
+    res.render('index', {title: 'Project Sunshine'});
+});
 
 module.exports = router;
