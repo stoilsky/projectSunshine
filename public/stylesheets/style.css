@@ -1,8 +1,123 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+
 }
 
 a {
-  color: #00B7FF;
+	color: #00B7FF;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #2b618d !important;
+}
+
+.bg-0 {
+    background-color: white;
+}
+
+.bg-1 {
+    background-color: #40b990;
+}
+
+.bg-2 {
+    background-color: #2b618d;
+}
+
+h1 {
+    color: white; 
+    padding-top: 15px; 
+    font-size: 41px; 
+    margin-top:45px
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    color: white !important;
+    background-color: #2b618d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li:hover  {
+    background-color:  #1abc9c !important;
+    color: white !important;
+}
+
+.navbar-nav li:hover a {
+	color: white !important;
+}
+
+.fa {
+	font-size: 5em;
+	color: #2b618d;
+}
+
+.fa-envelope-o {
+	font-size: 120%;
+}
+
+#inlineFormInputGroup {
+	width: 75%;
+}
+
+h3 {
+	color: #fff;
+}
+
+.video {
+	margin-bottom: 80px;
+}
+
+.well {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.welltext {
+	color: #2b618d;
+}
+
+.bottomsignup {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+button {
+	margin-left: 50px;
+}
+
+.intro-header {
+	color: #f8f8f8;
+	text-align: center;
+}
+
+.custom-tab-content{
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+	.submitbtn {
+		padding-top: 20px;
+		text-align: center;
+	}
 }
