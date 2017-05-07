@@ -21,14 +21,18 @@ a {
 }
 
 .bg-2 {
-    background-color: #2b618d;
+    background-color: #3498db;
 }
 
 h1 {
-    color: white; 
+    color: #000; 
     padding-top: 15px; 
     font-size: 41px; 
     margin-top:45px
+}
+
+.bg-2 > h1 {
+	color: #fff;
 }
 
 p {
@@ -67,7 +71,7 @@ p {
 
 .fa {
 	font-size: 5em;
-	color: #f1c40f;
+	color: #69ffcd;
 }
 
 .fa-envelope-o {
@@ -89,6 +93,10 @@ button {
 }
 
 h3 {
+	color: #000;
+}
+
+.about > h3 {
 	color: #fff;
 }
 
