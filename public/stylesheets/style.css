@@ -82,6 +82,12 @@ p {
 	width: 75%;
 }
 
+.winner {
+	color: black;
+	font-weight: bold;
+	float: right;
+}
+
 .hero-text {
 	color: white; 
 	padding-top: 2.5%;
