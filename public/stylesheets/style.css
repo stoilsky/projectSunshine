@@ -78,6 +78,12 @@ p {
 	width: 75%;
 }
 
+.hero-text {
+	 color: white; 
+	 padding-top: 2.5%;
+	 text-align: left;
+}
+
 h3 {
 	color: #fff;
 }
@@ -121,3 +127,53 @@ button {
 		text-align: center;
 	}
 }
+
+/* Email Capture Form Styles */
+
+#mc_embed_signup { 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	width:100%;
+}
+
+/* Old nav styles for reference
+
+        .nav-tabs > li, .nav-pills > li {
+            color: white !important;
+            border: thin white solid;
+            float:none;
+            display:inline-block;
+            *display:inline; ie7 fix
+            zoom:1; hasLayout ie7 trigger
+        }
+
+        .nav-pills > li > a {
+            color: white !important;
+        }
+
+        .nav-tabs, .nav-pills {
+            color: white !important;
+            margin-top: -5px;
+            margin-bottom: 35px;
+            text-align:center;
+        }
+
+        .nav-pills li {
+
+            background-color: rgba(255, 255, 255, 0) !important;
+
+        }
+
+        .nav-pills li a{
+
+            background-color: rgba(255, 255, 255, 0) !important;
+
+        }
+
+        .nav-pills li:hover a {
+            background-color: rgba(255, 255, 255, 0);
+            color: #2b618d !important;
+
+        }
+
+*/
