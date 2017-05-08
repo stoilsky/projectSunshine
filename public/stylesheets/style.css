@@ -1,7 +1,11 @@
 body {
 	font: 20px Montserrat, sans-serif;
 	line-height: 1.8;
+}
 
+.container-fluid {
+	padding-right: 150px;
+	padding-left: 150px;
 }
 
 a {
@@ -150,6 +154,17 @@ h3 {
 	.submitbtn {
 		padding-top: 20px;
 		text-align: center;
+	}
+	.container-fluid {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.bottomsignup {
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 }
 
